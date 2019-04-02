@@ -45,6 +45,8 @@ class TopBarTitle extends Component {
   handleScroll() {
     let scrollTop = document.documentElement.scrollTop;
     this.setState({isWindowScrolled: scrollTop > 100});
+     document.getElementsByClassName("side-nav-container")[0].style.backgroundColor = this.state.isWindowScrolled ? "white" : "transparent";
+     document.getElementsByClassName("side-nav-container")[0].style.color = this.state.isWindowScrolled ? "#6e6e6e" : "white";
   }
 }
 

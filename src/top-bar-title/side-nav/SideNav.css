@@ -1,17 +1,16 @@
 .side-nav-container {
   height: 100%;
-  width: 0;
+  width: 80%;
   position: fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
+  top: 60px;
+  left: -80%;
+  background-color: transparent;
   overflow-x: hidden;
-  padding-top: 80px;
-  transition: 0.5s;
-  color: #6e6e6e;
+  transition: 0.5s ease;
+  color: white;
   font-family: "Open Sans", serif;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
 
   display: flex;
@@ -23,6 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  flex-wrap: nowrap;
 }
 
 .side-nav-list-el{
@@ -32,6 +32,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .icon{

@@ -14,8 +14,7 @@ class BurgerMenu extends Component {
 
   render() {
     const burgerState = this.state.isBurgerActive ? "open" : "closed";
-    const scrolledBurgerClasses = this.state.isWindowScrolled ? "burger-grey" :
-      this.state.isBurgerActive ? "burger-grey" : "burger-white";
+    const scrolledBurgerClasses = this.state.isWindowScrolled ? "burger-grey" :  "burger-white";
     return (
         <div className="burger-container">
           <div className={"hamburger " + burgerState}>
@@ -48,8 +47,9 @@ class BurgerMenu extends Component {
   }
 
   handleClickForBurger() {
-    this.setState({isBurgerActive: !this.state.isBurgerActive});
-    document.getElementsByClassName("side-nav-container")[0].style.width = this.state.isBurgerActive ? "0px" : "60%";
+     this.setState({isBurgerActive: !this.state.isBurgerActive});
+     document.getElementsByClassName("side-nav-container")[0].style.left = this.state.isBurgerActive ? "-80%" : "0";
+
   }
 }
 

@@ -12,7 +12,7 @@ class Footer extends Component {
             <div className="about-content">
               <h2>A Propos</h2>
               <div>
-                Hajime est né fin 2017 de la rencontre entre deux domaines : la psychologie sociale et l’intelligence artificielle. En mettant en commun leurs compétences, l'équipe Hajime souhaite revisiter l'expérience patient en améliorant le suivi et la vie quotidienne des patients atteints de maladies chroniques. Nous pensons en effet que les sciences comportementales sont la clef de la médecine de demain.
+                 Ob haec et huius modi multa, quae cernebantur in paucis, omnibus timeri sunt coepta. et ne tot malis dissimulatis paulatimque serpentibus acervi crescerent aerumnarum, nobilitatis decreto legati mittuntur: Praetextatus ex urbi praefecto et ex vicario Venustus et ex consulari Minervius oraturi, ne delictis supplicia sint grandiora, neve senator quisquam inusitato et inlicito more tormentis exponeretur.
               </div>
             </div>
           </div>

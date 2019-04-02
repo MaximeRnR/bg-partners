@@ -18,25 +18,40 @@ class SideNav extends Component {
           <div className="side-nav-list-el">
             <div className="icon"><MdSlideshow/></div>
             <div>&nbsp;</div>
-            <a href="#presentation" className="side-nav-item">Présentation</a>
+            <a href="" className="side-nav-item">Le Cabinet BG</a>
           </div>
           <div className="side-nav-list-el spacer"/>
           <div className="side-nav-list-el">
             <div className="icon"><MdInsertChart/></div>
             <div>&nbsp;</div>
-            <a href="#status">Constat</a>
+            <a href="">Notre Histoire</a>
           </div>
           <div className="side-nav-list-el spacer"/>
           <div className="side-nav-list-el">
             <div className="icon"><MdSms/></div>
             <div>&nbsp;</div>
-            <a href="#solution">Solution</a>
+            <a href="">Notre Coeur de métier</a>
           </div>
           <div className="side-nav-list-el spacer"/>
           <div className="side-nav-list-el">
             <div className="icon"><MdGroup/></div>
             <div>&nbsp;</div>
-            <a href="#team">Equipe</a>
+            <a href="">Nos Engagements</a>
+          </div>
+          <div className="side-nav-list-el">
+            <div className="icon"><MdGroup/></div>
+            <div>&nbsp;</div>
+            <a href="">Devenir un BG</a>
+          </div>
+          <div className="side-nav-list-el">
+            <div className="icon"><MdGroup/></div>
+            <div>&nbsp;</div>
+            <a href="">Demander un devis</a>
+          </div>
+           <div className="side-nav-list-el">
+            <div className="icon"><MdGroup/></div>
+            <div>&nbsp;</div>
+            <a href="">Nous contacter</a>
           </div>
         </div>
       </div>
