@@ -1,0 +1,23 @@
+.presentation-container {
+   position: absolute;
+   top: 0;
+   margin-right: 12px;
+   height: 80vh;
+   width: 100%;
+   background-color: transparent;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   color: white;
+   align-items: flex-end;
+}
+
+.image {
+   width: 75%;
+   margin-right: 12px;
+}
+
+.punchline {
+   width: 50%;
+   margin-right: 12px;
+}
