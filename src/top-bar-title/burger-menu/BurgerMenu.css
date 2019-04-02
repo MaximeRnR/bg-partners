@@ -4,12 +4,6 @@
   display: flex;
 }
 
-@media (min-width: 600px) {
-  .burger-container {
-    display: none;
-  }
-}
-
 .hamburger {
   -webkit-transform: scale(1);
   transform: scale(1);

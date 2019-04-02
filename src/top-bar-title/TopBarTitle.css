@@ -46,6 +46,12 @@
   width: 100%;
 }
 
+@media (min-width: 600px) {
+  .logo {
+    width: 60%;
+  }
+}
+
 .slogan-container {
   width: 26%;
   margin-right: 2%;
