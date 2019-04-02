@@ -1,0 +1,32 @@
+.terms-and-conditions {
+  text-align: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  font-family: "Open Sans", serif;
+}
+
+.terms-and-conditions .background-img {
+  height: 36vh;
+}
+
+.terms-and-conditions .container{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.terms-and-conditions .title {
+  align-self: flex-start;
+  color: white;
+  padding-top: 8%;
+  padding-left: 2%;
+  z-index: 1;
+  font-size: 48px;
+}
+
+.terms-and-conditions .content {
+  align-self: center;
+  font-size: 24px;
+  text-align: left;
+  color: #6E6E6E;
+}

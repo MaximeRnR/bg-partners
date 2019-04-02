@@ -1,0 +1,48 @@
+.top-bar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: normal;
+  transition: background-color .2s ease;
+}
+
+.not-scrolled {
+  background-color: transparent;
+  color: white;
+}
+
+.scrolled{
+  color: #6e6e6e;
+  background-color: white;
+  box-shadow: 0 1px 6px 1px rgba(110, 110, 110, 0.35);
+}
+
+.bloc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-slogan-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  width: 70%;
+}
+
+.slogan-container {
+  width: 26%;
+  margin-right: 2%;
+}

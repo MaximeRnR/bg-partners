@@ -1,0 +1,40 @@
+.side-nav-container {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 80px;
+  transition: 0.5s;
+  color: #6e6e6e;
+  font-family: "Open Sans", serif;
+  font-size: 24px;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.side-nav-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.side-nav-list-el{
+  margin-left: 8%;
+  margin-top: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+}
