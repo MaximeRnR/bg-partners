@@ -49,6 +49,9 @@ class BurgerMenu extends Component {
   handleClickForBurger() {
      this.setState({isBurgerActive: !this.state.isBurgerActive});
      document.getElementsByClassName("side-nav-container")[0].style.left = this.state.isBurgerActive ? "-80%" : "0";
+     if(!this.state.isWindowScrolled){
+        document.querySelector(".presentation-container *").style.opacity = this.state.isBurgerActive ? "1" : "0";
+     }
 
   }
 }
