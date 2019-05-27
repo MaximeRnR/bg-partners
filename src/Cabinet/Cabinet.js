@@ -9,7 +9,7 @@ export default function Cabinet() {
     <div className="cabinet-container">
       <div className="cabinet-frame">
         <h1> Notre Cabinet </h1>
-        <img className="image" src={Image}/>
+        <img className="cabinet-image" src={Image}/>
         <div className="cabinet-description">
           <span> Notre Cabinet BG Partners est une société de conseil en management spécialisée dans l'<b>accompagnement</b> de grands programmes de transformation au digital.</span>
           <span> La croissance des entreprises et leur évolution.</span>

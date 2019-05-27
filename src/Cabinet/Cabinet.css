@@ -32,6 +32,11 @@
   width: 90%;
 }
 
+.cabinet-image {
+
+  width: 75%;
+}
+
 
 .cabinet-card {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -65,3 +70,12 @@
   top: -75%;
   left: -70%;
 }
+
+
+@media (min-width: 600px) {
+
+  .cabinet-image {
+    width: 40%;
+  }
+}
+
