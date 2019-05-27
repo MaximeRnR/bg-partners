@@ -14,3 +14,7 @@ body {
   background-color: whitesmoke;
   -webkit-font-smoothing: antialiased;
 }
+
+* {
+  font-family: 'Open Sans', sans-serif
+}

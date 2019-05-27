@@ -1,14 +1,6 @@
 import React, {Component} from "react";
 import "./SideNav.css";
-import {
-   MdBusinessCenter,
-   MdContacts,
-   MdDescription,
-   MdFavorite,
-   MdHistory,
-   MdLockOutline,
-   MdPeopleOutline
-} from "react-icons/md";
+import {MdBusinessCenter, MdContacts, MdFavorite, MdPeopleOutline} from "react-icons/md";
 
 class SideNav extends Component {
   componentDidMount() {
@@ -29,29 +21,14 @@ class SideNav extends Component {
             <a href="" className="side-nav-item">Le Cabinet BG</a>
           </div>
           <div className="side-nav-list-el">
-            <div className="icon"><MdHistory/></div>
-            <div>&nbsp;</div>
-            <a href="">Notre Histoire</a>
-          </div>
-          <div className="side-nav-list-el">
             <div className="icon"><MdFavorite/></div>
             <div>&nbsp;</div>
             <a href="">Notre Coeur de métier</a>
           </div>
           <div className="side-nav-list-el">
-            <div className="icon"><MdLockOutline/></div>
-            <div>&nbsp;</div>
-            <a href="">Nos Engagements</a>
-          </div>
-          <div className="side-nav-list-el">
             <div className="icon"><MdPeopleOutline/></div>
             <div>&nbsp;</div>
             <a href="">Devenir un BG</a>
-          </div>
-          <div className="side-nav-list-el">
-            <div className="icon"><MdDescription/></div>
-            <div>&nbsp;</div>
-            <a href="">Demander un devis</a>
           </div>
            <div className="side-nav-list-el">
             <div className="icon"><MdContacts/></div>

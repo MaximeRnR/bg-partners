@@ -7,7 +7,7 @@ export default function Presentation() {
    return (
       <div className="presentation-container">
          <img className="image" src={Image}/>
-         <span className="punchline"><b>Et alienos est memoriam</b> diligamus eos non oderit alterum viderit.</span>
+         <span className="punchline">Le <b>Cabinet de conseil </b> en stratégie opératoire à taille humaine, concentré de talents.</span>
       </div>
    );
 }

@@ -29,9 +29,6 @@ class TopBarTitle extends Component {
                 <img src={title} className="logo" alt="titre"/>
               </Link>
             </div>
-            <div className="slogan-container">
-              <span className="slogan"> Parternaires Particuliers</span>
-            </div>
           </div>
         </div>
       </div>
