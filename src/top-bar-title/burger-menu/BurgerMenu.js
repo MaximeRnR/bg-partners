@@ -46,6 +46,7 @@ class BurgerMenu extends Component {
     this.setState({isWindowScrolled: scrollTop > 150});
   }
 
+
   handleClickForBurger() {
      this.setState({isBurgerActive: !this.state.isBurgerActive});
      document.getElementsByClassName("side-nav-container")[0].style.left = this.state.isBurgerActive ? "-80%" : "0";
