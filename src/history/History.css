@@ -1,0 +1,27 @@
+.history {
+   width: 100%;
+   font-family: "Open Sans";
+}
+
+.history .timeline-title {
+   color: #6e6e6e;
+}
+
+.image-element {
+   width: 100%;
+   height: 100%;
+}
+
+.vertical-timeline-element-content {
+   border-top: 4px solid orange;
+}
+
+/*
+  Vertical timeline react tweak
+*/
+
+.vertical-timeline-element-icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

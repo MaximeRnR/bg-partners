@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "./SideNav.css";
 import {MdBusinessCenter, MdContacts, MdFavorite, MdPeopleOutline} from "react-icons/md";
+import {Link} from "react-router-dom";
 
 class SideNav extends Component {
   componentDidMount() {
@@ -18,7 +19,7 @@ class SideNav extends Component {
           <div className="side-nav-list-el">
             <div className="icon"><MdBusinessCenter/></div>
             <div>&nbsp;</div>
-            <a href="" className="side-nav-item">Le Cabinet BG</a>
+             <Link to={'/cabinet'}><a href="" className="side-nav-item">Le Cabinet BG</a></Link>
           </div>
           <div className="side-nav-list-el">
             <div className="icon"><MdFavorite/></div>

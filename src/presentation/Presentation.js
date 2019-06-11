@@ -7,7 +7,9 @@ export default function Presentation() {
    return (
       <div className="presentation-container">
          <img className="image" src={Image}/>
-         <span className="punchline">Le <b>Cabinet de conseil </b> en stratégie opératoire à taille humaine, concentré de talents.</span>
+         <span className="punchline"><b>Résultat, Pragmatisme, Valeur, Bienveillance. </b>
+Un cabinet de conseil de référence en stratégie opérationnelle, spécialisé en pilotage de grands programmes de transformation.
+</span>
       </div>
    );
 }
