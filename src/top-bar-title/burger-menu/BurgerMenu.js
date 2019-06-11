@@ -53,6 +53,9 @@ class BurgerMenu extends Component {
      if(document.querySelector(".presentation-container *") && !this.state.isWindowScrolled && window.innerWidth < 600){
         document.querySelector(".presentation-container *").style.opacity = this.state.isBurgerActive ? "1" : "0";
      }
+     if(document.querySelector(".cabinet-page")){
+        document.querySelector(".cabinet-page .first-container ").style.opacity = this.state.isBurgerActive ? "1" : "0";
+     }
 
   }
 }
